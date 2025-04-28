@@ -11,7 +11,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=83190276951914"
+ImageButton.Image = "http://www.roblox.com/asset/?id=88632676066635"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
@@ -23,43 +23,43 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "TBoy Roblox Tổng Hợp",
-    SubTitle = "Blox Fruit",
+    Title = "tui đẹp zai vc 🇻🇳",
+    SubTitle = "Blox Fruit/tao đẹp zai vc",
     TabWidth = 157,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(550, 320),
     Acrylic = true,
-    Theme = "Amethyst",
+    Theme = "light",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        Main0=Window:AddTab({ Title="Thông Tin" }),
-        Main1=Window:AddTab({ Title="Script Farm" }),
-        Main2=Window:AddTab({ Title="Farm Fruit" }),
-        Main3=Window:AddTab({ Title="Farm Chest" }),
-        Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
+        Main0=Window:AddTab({ Title="Thông Tin🇻🇳" }),
+        Main1=Window:AddTab({ Title="Script Farm🇻🇳" }),
+        Main2=Window:AddTab({ Title="Farm Fruit🇻🇳" }),
+        Main3=Window:AddTab({ Title="Farm Chest🇻🇳" }),
+        Main4=Window:AddTab({ Title="Script Hop🇻🇳" }),
+       Main5=Window:AddTab({ Title="auto farm🇻🇳" }),
 }
     Tabs.Main0:AddButton({
-    Title = "Discord",
-    Description = "TBoyRoblox Community",
-    Callback = function()
-        setclipboard("https://discord.gg/tboyroblox-community-1253927333920899153")
-    end
-})
-
-    Tabs.Main0:AddButton({
-    Title = "Youtuber",
-    Description = "TBoy Roblox",
-    Callback = function()
-        setclipboard("https://www.youtube.com/@TBoyRoblox08")
-    end
-})
-
-    Tabs.Main0:AddButton({
-    Title = "Youtuber",
-    Description = "TBoy Gamer",
+    Title = "kênh tui học làm script",
+    Description = "link kênh đó",
     Callback = function()
         setclipboard("https://www.youtube.com/@TBoyGamer08")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "tiktok",
+    Description = "rip_heheboy",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@rip_heheboy1?_t=ZS-8vslJHhZSOF&_r=1")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "tiktok",
+    Description = "rip_heheboy",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@rip_heheboy1?_t=ZS-8vslJHhZSOF&_r=1")
     end
 })
     
@@ -81,5 +81,13 @@ Tabs.Main1:AddButton({
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Banana Hub",
+    Description="",
+    Callback=function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
 })
